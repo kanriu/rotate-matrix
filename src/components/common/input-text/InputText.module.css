@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 0, 0, 0.9);
+  margin-left: 0.5rem;
+  text-align: left;
+}
+
+.inputContent {
+  padding: 1.1rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+  border: transparent solid 2px;
+}
+
+.inputError {
+  border: rgba(255, 0, 0, 0.5) solid 2px;
+}
