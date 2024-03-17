@@ -26,7 +26,6 @@ export const Header: FC<Props> = ({
       <link rel="canonical" href={url} />
       <link rel="alternate" href={url} hrefLang="en-us" />
       <link rel="alternate" href={urlEs} hrefLang="es" />
-      /**Link -- alternate */
     </Head>
   );
 };
