@@ -18,7 +18,8 @@ export const HomeForm = () => {
       validationSchema={Yup.object().shape({
         range: Yup.number()
           .typeError("Debe ser un número válido")
-          .min(2, "Debe ser como mínimo un 2 o mayor")
+          .min(2, "Debe ser como mínimo 2 o mayor")
+          .max(100, "Debe ser como máximo 100 o menor")
           .required("Este campo es requerido"),
       })}
     >
